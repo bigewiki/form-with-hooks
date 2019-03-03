@@ -1,0 +1,19 @@
+/* clean slate */
+._3919_input{
+  color: #666;
+  padding: .75em;
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #fafafa;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
