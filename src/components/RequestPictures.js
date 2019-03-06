@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
-function RequestPictures(messageFromState) {
-
-  const [getMessageFromState, setMessageFromState] = useState(messageFromState);
+const RequestPictures = () => {
 
   return (
     <div>
@@ -14,7 +12,7 @@ function RequestPictures(messageFromState) {
         <label for="frmEmailC">Confirm Email</label><br/>
         <input className="_3919_input" type="email" name="emailC" id="frmEmailC" placeholder="name@example.com" required autocomplete="email"/><br/>
         <label for="whichPics">Which pictures did you want?</label><br/>
-        <textarea name="whichPics">{getMessageFromState.props}</textarea>
+        <textarea name="whichPics"></textarea>
         <button>Submit</button>
       </form>
     </div>
