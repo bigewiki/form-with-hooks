@@ -18,9 +18,9 @@ const RequestPictures = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    fetch('http://3919.muniz.dev/wp-content/themes/astra-child/recaptcha.php',{
+    fetch('https://3919.muniz.dev/wp-content/themes/astra-child/recaptcha.php',{
       method: 'post',
-      body: captchaState,
+      body: `captcha=${captchaState}`,
       headers: {
         "Content-Type": "application/json"
       },
